@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class SumOfTwoNumbers {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the first number");
+        System.out.println("Enter the first number to add");
        int a= sc.nextInt();
-        System.out.println("Enter the second number");
+        System.out.println("Enter the second number to add");
        int b=sc.nextInt();
         int c=sum(a,b);
         System.out.println("the sum of two numbers is:"+c);
